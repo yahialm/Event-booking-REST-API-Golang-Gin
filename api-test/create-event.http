@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im11c3RhcGhhLmxhbWhhZmFkQGFpYWMubWEiLCJleHAiOjE3MDk2NjIzODgsInVzZXJJZCI6MX0.8kREdWuVL9c9CBrHKKy0o3fXJ_ka8suWQejHFNGHlRM
+
+{
+    "name":"Golang Cohort",
+    "description": "One week",
+    "location": "Casablanca, ORANGE ODC Sidi Maarouf",
+    "dateTime": "2024-03-09T12:00:00.000Z"
+}

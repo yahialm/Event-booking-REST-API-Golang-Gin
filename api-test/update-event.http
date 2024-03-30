@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im11c3RhcGhhLmxhbWhhZmFkQGFpYWMubWEiLCJleHAiOjE3MDk2MzkzNTUsInVzZXJJZCI6MX0.47MbKyDVLoqJSNsbDC5FlFlgBIqnDR3XOdco3AqVl-o
+
+{
+    "name":"Java masterClass",
+    "description": "Master",
+    "location": "TechnoPark",
+    "dateTime": "2027-01-01T12:00:00.000Z"
+}
